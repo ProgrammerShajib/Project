@@ -1,0 +1,26 @@
+/* body {
+  background-color: black;
+  color: white;
+  margin: 3px;
+} */
+:root{
+  --encore-graphic-size-decorative-base: 24px;
+  --encore-graphic-size-decorative-small: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.aitems-center {
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}

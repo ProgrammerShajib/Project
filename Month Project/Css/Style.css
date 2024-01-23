@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Navigation bar style */
+.navigation {
+
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  /* background-color: blue; */
+}
+
+#navigation {
+  margin-top: 23px;
+}
+
+/* nav{
+  top: 0;
+  position:sticky;
+} */
+/*  styling the left-side navber */
+.nav-left {
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  /* margin: 0 20px; */
+}
+
+.nav-left span {
+  font-size: 37px;
+  padding: 8px 0px 0px 6px;
+}
+
+.nav-left a {
+  text-decoration: none;
+
+}
+
+
+/*   styling the right-side navber */
+.nav-left ul {
+  margin: 0px 31px;
+  display: flex;
+}
+
+
+/*  styling the left-side navber ul list  */
+.nav-left ul li {
+  margin: 0 18px;
+  list-style: none;
+  font-family: var(--font2);
+
+}
+
+.nav-left ul li a:hover {
+  color: rgb(103, 25, 25);
+  font-weight: bold;
+  /* background-color: rgb(139, 139, 116);  */
+}
+
+
+/* In Navigation bar styling the left-side navber Ul list hover style */
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  border: 2px;
+  border-radius: 4px;
+}
+
+
+
+/* In Navigation bar styling the right-side navber  button*/
+.btn {
+  padding: 6px 11px 6px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(16, 97, 117);
+}
+
+/* In Navigation bar styling the right-side navber  intput form */
+.form-input {
+  padding: 4px 0px 2px 30px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-family: var(--font1);
+  font-size: 13px;
+
+}
+
+/* Styling the Home content  */
+.content {
+
+  border: 2px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  position: relative;
+
+}
+
+.content::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-image: url(../img/Background.jpg);
+  height: inherit;
+  width: 98%;
+  z-index: -1;
+  opacity: 0.2;
+
+}
+
+/* for blog */
+
+
+/* Styling the Home content left */
+.content-left {
+  font-family: var(--font1);
+  padding: 18px;
+  /* width: 40vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+/* Styling the Home content  right */
+.content-right {
+  /* width: 40vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* Styling the Home content right-side image */
+.content-right img {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 24vw;
+
+}
+
+.HomeArticles {
+  margin-top: 23px;
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: rgb(183, 226, 231, 0.4);
+
+}
+
+.year-box {
+  position: absolute;
+  width: 10vw;
+  height: 40vh;
+  /* background-color: red; */
+  right: 0px;
+  top: 22px;
+}
+
+
+.HomeArticle {
+  display: flex;
+  margin: 25px 0px;
+  /* background-color: rgb(183, 226, 231, 0.4); */
+
+}
+
+.home-article-content {
+  padding: 25px;
+  align-self: center;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .home-article{
+
+} */
+
+.HomeArticle img {
+  margin-right: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 204px;
+  height: 129px;
+}
+
+
+/* Styling the footer */
+.footer {
+  height: 24px;
+  color: white;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.footer a {
+  color: white;
+}

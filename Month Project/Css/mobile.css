@@ -1,0 +1,87 @@
+@media screen and (max-width: 605px) and (min-width: 214px) {
+  .btn {
+    padding: 4px 5px;
+    font-size: 11px;
+  }
+
+  .form-input {
+    padding: 2px 0px 1px 30px;
+    font-size: 11px;
+  }
+
+  .home-article-content {
+    padding: 0;
+    align-self: center;
+  }
+
+  .content-left h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-left p {
+    font-size: 1rem;
+  }
+
+  .year-box {
+    font-size: 10px;
+    /* left: 205px; */
+    display: flex;
+    /* right: 14px; */
+    top: 17px;
+    width: 24vw;
+    height: 24vh;
+    /* background-color: red; */
+    flex-direction: column;
+  }
+
+  .year {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer {
+    height: 24px;
+
+  }
+
+  .HomeArticle-h2 {
+    text-align: center;
+  }
+
+  .blog-home {
+    display: block;
+  }
+
+  .blog-post-content>h1::first-letter {
+    font-size: 173%;
+  }
+
+  .blog-post-content>h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .blogpost-meta {
+    /* background-color: #ff3737; */
+    display: block;
+    justify-content: space-between;
+  }
+  .max-width-2 {
+    max-width: 80vw;
+}
+
+.form-box > input, textarea {
+  padding: 8px;
+  width: 77vw;
+  margin: 7px 0;
+  padding: 6px 14px;
+  font-size: 14px;
+}
+ 
+.form-box > button {
+  margin: 0px 100px 0px 100px;
+  padding: 2px 9px;
+  font-size: 16px;
+}
+
+}

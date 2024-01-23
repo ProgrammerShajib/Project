@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Noto+Sans+Tai+Viet&family=Noto+Sans:wght@700;800&family=Pixelify+Sans&family=Ubuntu&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    height: 150vh;
+    background-image: url("/asset/background/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(2500px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 150vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+nav img {
+    color: red;
+    width: 135px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    height: calc(100% - 80px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 33px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: 'Noto Sans Tai Viet';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: 'Noto Sans Tai Viet';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(57, 52, 52);
+}
+
+.btn {
+    padding: 8px 33px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.8);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 13px 34px;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    color: white;
+    padding: 13px 118px 13px 9px;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(228, 221, 221, 0.2);
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    padding: 60px 0;
+
+}
+
+
+.secImg img {
+    max-width: 400px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg video {
+    max-width: 400px;
+    position: absolute;
+    top: 51px;
+    left: 0;
+}
+
+.first>div {
+    font-family: 'Noto Sans Tai Viet';
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq h1 {
+    font-family: 'Noto Sans Tai Viet';
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px
+}
+
+.faq {
+    padding: 40px;
+    color: white;
+}
+
+.boxfaq svg {
+    filter: invert(1);
+}
+
+.boxfaq {
+    transition: all 0.3s ease-out;
+    justify-content: space-between;
+    font-family: 'Noto Sans Tai Viet';
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    padding: 23px;
+    max-width: 73vw;
+    margin: 20px auto;
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
+}
+
+.boxfaq :hover {
+    background-color: #414141;
+}
+
+/* .boxfaq :active {
+    background-color: #414141;
+} */
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 23px;
+
+
+}
+
+div.footerquestion {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Noto Sans Tai Viet';
+    padding: 23px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.footerItem {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Noto Sans Tai Viet';
+}
+
+@media screen and (max-width: 960px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .faq h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .hero-button {
+    flex-direction: column;
+    }
+    .hero> :nth-child(1) {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .secImg img {
+        max-width: 255px;
+    }
+    .secImg video {
+        max-width: 200px;
+    }
+    .boxfaq {
+        font-size: 16px;
+    }
+    nav img {
+        width: 90px;     
+    }
+    .btn {
+        padding: 5px 12px;
+    }
+    nav {
+        max-width: 90vw;
+    }
+    .main {
+        height: 220vh;
+    }
+    .first>div :nth-child(1) {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    first>div :nth-child(2) {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+}

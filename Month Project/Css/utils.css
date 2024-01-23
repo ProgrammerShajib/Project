@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2:wght@500&family=Noto+Sans+Tai+Viet&family=Noto+Sans:wght@700;800&family=Pixelify+Sans&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Baloo+Bhaijaan+2:wght@500&family=Noto+Sans+Tai+Viet&family=Noto+Sans:wght@700;800&family=Pixelify+Sans&family=Roboto&family=Ubuntu&display=swap');
+
+:root {
+
+  --main-bg-color: brown;
+  --font1: 'Baloo Bhaijaan 2', sans-serif;
+  --font2: 'Roboto', sans-serif;
+}
+
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+
+}
+.marginHome{
+  margin-top:5px ;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.margin-top-botom{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-box > input, textarea{
+  padding: 4px;
+  width: 40vw;
+  margin: 7px 0;
+}
