@@ -1,67 +1,65 @@
-  /* Navigation bar */
-  #navbar {
-     flex-direction: column;
-  }
+/* Navigation bar */
+#navbar {
+  flex-direction: column;
+}
 
-  #navbar ul li {
-     list-style: none;
-     font-size: 14px;
-  }
+#navbar ul li {
+  list-style: none;
+  font-size: 15px;
+}
 
-  #navbar ul li a {
-     margin: 12px 7px;
-     padding: 2px 1px;
-  }
+#navbar ul li a {
+  margin: 12px 7px;
+  padding: 2px 1px;
+}
 
+#services {
+  flex-direction: column;
+}
 
-  #services {
-     flex-direction: column;
-  }
+/* Home section */
+#home {
+  height: 240px;
+}
 
-  /* Home section */
-  #home {
-     height: 240px;
-  }
+#home::before {
+  flex-direction: column;
+}
 
-  #home::before {
-     flex-direction: column;
+.h-primary {
+  font-size: 1.5rem;
+  padding: 12px;
+}
 
-  }
+#home p {
+  font-size: 0.9rem;
+}
 
-  .h-primary {
-     font-size: 1.5rem;
-     padding: 12px;
-  }
+.btn {
+  margin: 11px 2px;
+  padding: 0px 21px;
+  font-size: 0.7rem;
+}
 
-  #home p {
-     font-size: 0.9rem;
-  }
+/* Services section */
+#services .box img {
+  height: 125px;
+}
 
-  .btn {
-     margin: 11px 2px;
-     padding: 0px 21px;
-     font-size: 0.7rem;
-  }
+/* Client section */
+#clients {
+  flex-wrap: wrap;
+}
 
-  /* Services section */
-  #services .box img {
-     height: 125px;
-  }
+#clients img {
+  height: 80px;
+}
 
-  /* Client section */
-  #clients {
-     flex-wrap: wrap;
-  }
+footer {
+  height: 20px;
+  font-size: 0.8rem;
+}
 
-  #clients img {
-     height: 80px;
-  }
-
-  footer {
-     height: 20px;
-     font-size: 0.8rem;
-  }
-
-  #contact-box form {
-     width: 80%;
-  }
+#contact-box form {
+  width: 80%;
+}
